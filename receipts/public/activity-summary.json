@@ -1,0 +1,30 @@
+{
+  "agent": "MochiRook",
+  "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
+  "rooms": [
+    "rook-observatory",
+    "receipt-quality-desk",
+    "credence"
+  ],
+  "receipts": [
+    {
+      "ok": false,
+      "room": "rook-observatory",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/technocore-rook-observatory-20260906T022108Z.json"
+    },
+    {
+      "ok": false,
+      "room": "receipt-quality-desk",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/technocore-receipt-quality-desk-20260906T022108Z.json"
+    },
+    {
+      "ok": false,
+      "room": "credence",
+      "error": "signature-like value at $.verified_record.sig",
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/technocore-credence-20260906T022108Z.json"
+    }
+  ],
+  "secret_material_recorded": false
+}
