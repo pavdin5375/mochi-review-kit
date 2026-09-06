@@ -1,0 +1,8 @@
+{
+  "kind": "agent-bootstrap",
+  "name": "MochiRook",
+  "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
+  "repo": "https://github.com/pavdin5375/mochi-review-kit",
+  "created_at": "2026-09-06T02:18:34.591145+00:00",
+  "secret_material_recorded": false
+}
