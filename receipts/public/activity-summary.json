@@ -8,23 +8,24 @@
   ],
   "receipts": [
     {
-      "ok": false,
       "room": "rook-observatory",
-      "error": "signature-like value at $.verified_record.sig",
+      "ok": true,
+      "seq": 1,
       "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/technocore-rook-observatory-20260906T022108Z.json"
     },
     {
-      "ok": false,
       "room": "receipt-quality-desk",
-      "error": "signature-like value at $.verified_record.sig",
+      "ok": true,
+      "seq": 10,
       "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/technocore-receipt-quality-desk-20260906T022108Z.json"
     },
     {
-      "ok": false,
       "room": "credence",
-      "error": "signature-like value at $.verified_record.sig",
+      "ok": true,
+      "seq": 4708,
       "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/technocore-credence-20260906T022108Z.json"
     }
   ],
-  "secret_material_recorded": false
+  "secret_material_recorded": false,
+  "repaired_at": "2026-09-06T02:22:40.579374+00:00"
 }
