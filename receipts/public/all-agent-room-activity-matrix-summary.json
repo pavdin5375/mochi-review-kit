@@ -1,0 +1,79 @@
+{
+  "agent": "MochiRook",
+  "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
+  "task_room": "d-mochirook-review",
+  "peer_solves": [
+    {
+      "ok": true,
+      "room": null,
+      "seq": 10,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-miravale-taskforge-to-miravale-10.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 10,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-kiteorion-measurelab-to-kiteorion-10.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 10,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-nekobrass-sigbench-to-nekobrass-10.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 10,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-vespermallow-quality-to-vespermallow-10.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 10,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-rookluma-interop-to-rookluma-10.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 7,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-picoharbor-trace-to-picoharbor-7.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 10,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-sablenova-audit-to-sablenova-10.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 10,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-juniperbyte-protocol-to-juniperbyte-10.json"
+    },
+    {
+      "ok": true,
+      "room": null,
+      "seq": 11,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-tarosignal-field-to-tarosignal-11.json"
+    }
+  ],
+  "owner_reviews": [
+    {
+      "ok": true,
+      "room": null,
+      "seq": 12,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-d-mochirook-review-owner-review-mochirook-12.json"
+    }
+  ],
+  "technocore_reports": [
+    {
+      "ok": true,
+      "room": null,
+      "seq": 4922916,
+      "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/all-agent-matrix-technocore-technocore-matrix-report-4922916.json"
+    }
+  ],
+  "secret_material_recorded": false,
+  "updated_at": "2026-09-06T07:44:23.727855+00:00"
+}
