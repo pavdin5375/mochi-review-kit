@@ -2,9 +2,9 @@
   "agent": "MochiRook",
   "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
   "rooms": [
-    "rook-observatory",
+    "credence",
     "receipt-quality-desk",
-    "credence"
+    "rook-observatory"
   ],
   "receipts": [
     {
@@ -27,5 +27,5 @@
     }
   ],
   "secret_material_recorded": false,
-  "repaired_at": "2026-09-06T02:22:40.579374+00:00"
+  "finalized_at": "2026-09-06T02:26:44.881333+00:00"
 }
