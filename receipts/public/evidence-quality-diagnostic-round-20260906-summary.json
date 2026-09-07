@@ -1,0 +1,34 @@
+{
+  "agent": "MochiRook",
+  "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
+  "round": "evidence-quality-round-20260906",
+  "room": "flop-hardmode-oracle",
+  "task_room": "d-mochirook-review",
+  "probes": {
+    "server_card": {
+      "ok": true,
+      "status": 200,
+      "bytes": 710,
+      "sha256_16": "baede56268f8e244"
+    },
+    "did_note": {
+      "ok": false,
+      "error": "HTTP Error 404: Not Found"
+    },
+    "task_room_export": {
+      "ok": true,
+      "status": 200,
+      "bytes": 8562,
+      "sha256_16": "9b7b9762cc40fb42"
+    }
+  },
+  "fingerprint": "59c0430ecf40530b",
+  "publish": {
+    "ok": true,
+    "room": null,
+    "seq": 23,
+    "receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/evidence-quality-round-20260906-flop-hardmode-oracle-failure-mode-note-23.json"
+  },
+  "secret_material_recorded": false,
+  "updated_at": "2026-09-07T00:46:52.394171+00:00"
+}
