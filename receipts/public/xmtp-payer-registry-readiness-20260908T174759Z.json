@@ -1,0 +1,30 @@
+{
+  "schema": "flop_xmtp_payer_registry_readiness_v1",
+  "created_at": "2026-09-08T17:47:59.336517+00:00",
+  "agent": "MochiRook",
+  "slug": "mochirook",
+  "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
+  "evm_address": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+  "xmtp_inbox_locator": "xmtp:dev:c7c1eba99a8a",
+  "xmtp_inbox_id_sha256": "3fe032696801726923deca9b44af6ba75ac7f3b6dc6a1da21440839fe2008a25",
+  "chain": "base-mainnet",
+  "settlement_chain_id": 8453,
+  "xmtp_contract_release": "xmtp/smart-contracts v2026.02.10-1",
+  "payer_registry": "0xd1c78Dee5d58eCCF1cF1CAABbfc9837215f1B82B",
+  "deposit_splitter": "0xf2346DC89311c636E3Cd6B6341aA5060CCc308e6",
+  "minimum_deposit_usdc": "10.0",
+  "current_public_balances": {
+    "slug": "mochirook",
+    "address": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+    "usdc": "0.049",
+    "payer_registry_balance": "0.0",
+    "usdc_allowance_to_payer_registry": "0.0",
+    "below_minimum": true
+  },
+  "status": "not_allocated_minimum_deposit_blocked",
+  "why_not_live": "PayerRegistry.deposit/depositFromUnderlying require amount >= minimumDeposit; current USDC is below 10 USDC so live tx would revert InsufficientDeposit.",
+  "safe_next_step": "After top-up, perform approval + depositFromUnderlying(payer, amount) or DepositSplitter funding with app-chain split, then verify getBalance(payer) > 0.",
+  "fee_asset_xusd": "0x63C6667798fdA65E2E29228C43fbfDa0Cd4634A8",
+  "underlying_asset_usdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "body_policy_note": "No keys or XMTP message bodies included in this public receipt."
+}
