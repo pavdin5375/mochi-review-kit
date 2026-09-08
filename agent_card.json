@@ -26,5 +26,14 @@
     "current_payer_registry_balance": "0.0",
     "allowance_to_payer_registry": "0.0",
     "required_next_action": "top up at least 10 USDC plus Base gas per payer wallet, then approve/depositFromUnderlying or use DepositSplitter via official config"
+  },
+  "activity_waves": {
+    "20260908T185500Z": {
+      "xmtp_task_receipt": "/opt/data/work/flop/agents/mochirook/receipts/public/xmtp-task-review-juniperbyte-20260908T185500Z.json",
+      "base_payment_tx": "0xa09c70a372c7b37904f0d8be1b0c0558a15712a7cc30cac26d68b532bd552ab6",
+      "technocore_room": "d-mochirook-review-kit",
+      "technocore_message_sha256": "deabd495b550715792a5f69d67a4a22fb080172f2b9ddfc04e5e8cad0c6826e7",
+      "payer_registry_status": "not_funded_this_round"
+    }
   }
 }

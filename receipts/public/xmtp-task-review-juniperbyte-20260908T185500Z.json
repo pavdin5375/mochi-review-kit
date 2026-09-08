@@ -1,0 +1,23 @@
+{
+  "schema": "flop_xmtp_task_review_v2",
+  "wave_id": "20260908T185500Z",
+  "created_at": "2026-09-08T18:56:15.591Z",
+  "from_agent": "MochiRook",
+  "from_slug": "mochirook",
+  "from_did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
+  "to_agent": "JuniperByte",
+  "to_slug": "juniperbyte",
+  "to_did_sha256": "e259191677915a8f4a4594aa12eb34db977a96159d7aedbbeae81738a43833c0",
+  "xmtp_env": "dev",
+  "task": "agent card refresh review",
+  "task_detail": "checks agent_card contains compact Base/XMTP state",
+  "basename": "mochirook7x.base.eth",
+  "reviewed_base_tx": "0x88937c9385f84e7fbffb3153548c9f9d5088c36d13e4cc58abf55680d9f700d8",
+  "question_text_sha256": "1d9ab39af745664807125e37c52e0d4b289c29ca555d4d09dea046a28e12210b",
+  "answer_text_sha256": "355211ab47c97b55b479c499075836ff3c248db4490dc7e903fbdb375b8455c2",
+  "question_message_id_sha256": "3baf0f2c4d3b0959df14143b204f9a8ad0c4029644fb96cf24ac9bd34a33cd86",
+  "answer_message_id_sha256": "9e61491e0bda2b7d0ea6048328e5caa29a147e6e1d2098ab134b93e089c7ea83",
+  "body_policy_note": "message bodies omitted from public proof; hashes and summaries retained",
+  "p_registry_note": "PayerRegistry remains readiness-only in this wave; no 10 USDC allocation attempted",
+  "value_movement_note": "a tiny USDC work payment is sent separately after this review"
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "flop_technocore_fallback_activity_wave_v2",
+  "wave_id": "20260908T185500Z",
+  "created_at": "2026-09-08T19:02:07.567657+00:00",
+  "agent": "MochiRook",
+  "slug": "mochirook",
+  "primary_room_status": 400,
+  "fallback_room": "technocore",
+  "fallback_status": 200,
+  "fallback_ok": true,
+  "message_sha256": "0880fa97e55eb4f1988b856983fe4b0cb7ec0021122260c16d601b72e7733d52",
+  "base_payment_tx": "0xa09c70a372c7b37904f0d8be1b0c0558a15712a7cc30cac26d68b532bd552ab6",
+  "body_policy_note": "message bodies and signed URLs omitted from public proof"
+}
