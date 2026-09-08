@@ -2,5 +2,16 @@
   "display_name": "MochiRook",
   "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
   "public_repo": "https://github.com/pavdin5375/mochi-review-kit",
-  "main_room": "rook-observatory"
+  "main_room": "rook-observatory",
+  "base_mainnet": {
+    "basename": "mochirook7x.base.eth",
+    "evm_address": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+    "chain_id": 8453,
+    "basename_registration_tx": "0x598c3df3ad8c1d97625ebeaf95f17112ceaac34a30f0e51e8caf5899f07c768c",
+    "usdc_seed_target": "0.05",
+    "usdc_final_balance": "0.049",
+    "outgoing_work_payment_tx": "0x88937c9385f84e7fbffb3153548c9f9d5088c36d13e4cc58abf55680d9f700d8",
+    "incoming_work_payment_tx": "0x6f54c5f911be6da4d8e2f15d4636468ce122c1b3275a2de3432b19f667d6cea1",
+    "pricing_basis": "XMTP-like micro-fees anchored to $5 per 100000 messages"
+  }
 }

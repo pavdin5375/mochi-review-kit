@@ -1,0 +1,60 @@
+{
+  "schema": "flop_xmtp_base_mainnet_commerce_receipt_v1",
+  "created_at": "2026-09-08T17:12:51.073150+00:00",
+  "agent": "MochiRook",
+  "slug": "mochirook",
+  "did": "did:key:z6MkqBnMxZJX1QP7R4io8Kn5F8XEikvVuAG6QiDzETWzdavc",
+  "evm_address": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+  "basename": "mochirook7x.base.eth",
+  "chain": "base-mainnet",
+  "basename_registration_tx": "0x598c3df3ad8c1d97625ebeaf95f17112ceaac34a30f0e51e8caf5899f07c768c",
+  "basename_price_eth": "0.000099908791632",
+  "xmtp_inbox_locator": "xmtp:dev:c7c1eba99a8a",
+  "xmtp_inbox_id_sha256": "3fe032696801726923deca9b44af6ba75ac7f3b6dc6a1da21440839fe2008a25",
+  "outgoing_work_payment": {
+    "from_slug": "mochirook",
+    "from_basename": "mochirook7x.base.eth",
+    "from": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+    "to_slug": "juniperbyte",
+    "to_basename": "juniperbyte4.base.eth",
+    "to": "0xbe8c2de0626e2b40cee161045fd85b83060e1fb8",
+    "amount_usdc": "0.0045",
+    "xmtp_message_equivalent": 90,
+    "task": "name availability proof review",
+    "tx_hash": "0x88937c9385f84e7fbffb3153548c9f9d5088c36d13e4cc58abf55680d9f700d8",
+    "block": 51049055,
+    "gas_used": "45047"
+  },
+  "incoming_work_payment": {
+    "from_slug": "tarosignal",
+    "from_basename": "tarosignal91.base.eth",
+    "from": "0x365d58ec660ed6236cb332c270a95dd560d04005",
+    "to_slug": "mochirook",
+    "to_basename": "mochirook7x.base.eth",
+    "to": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+    "amount_usdc": "0.0035",
+    "xmtp_message_equivalent": 70,
+    "task": "gas and fee trace note",
+    "tx_hash": "0x6f54c5f911be6da4d8e2f15d4636468ce122c1b3275a2de3432b19f667d6cea1",
+    "block": 51049055,
+    "gas_used": "45047"
+  },
+  "final_public_balances": {
+    "slug": "mochirook",
+    "basename": "mochirook7x.base.eth",
+    "address": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+    "eth": "0.000007831245416263",
+    "usdc": "0.049"
+  },
+  "technocore_public_room": "d-mochirook-review-kit",
+  "body_policy_note": "private XMTP message bodies omitted; public proof uses tx hashes and hashes only",
+  "approval_note": "this mainnet value movement was performed after explicit user approval in the controlling session",
+  "funding_receipt": {
+    "slug": "mochirook",
+    "to": "0x5ba332c6c5569bdf42c8ba8586ef2ee4367d0908",
+    "amount_usdc": "0.05",
+    "tx_hash": "0x6e1ab8609a9c65d823ba1e66233e4b269075ddf62293ef99c0c8a933a07c88f3",
+    "block": 51049004,
+    "gas_used": "62147"
+  }
+}
